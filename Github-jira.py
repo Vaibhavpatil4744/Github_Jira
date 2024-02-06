@@ -13,7 +13,7 @@ def createJira():
 
     url = "https://vaibhavpatil123.atlassian.net/rest/api/3/issue"
 
-    API_TOKEN="ATATT3xFfGF0ZkNCsK3sm0hXMe_iLw4M3WEakA-NEOwXk9qbnmoHF99IVfUbKTZw4Jy3jIUi633CWllQ74EqqIwXozIa_0_Qvaio3ZqWaWz1vX9w-MEkq9pCcGL65bEYQJndDz6j42WUb4G1rJpOA4B1NfQ21DfK17guW8OQfNV9bzvjR3KTu9U=D162D061"
+    API_TOKEN=""
 
     auth = HTTPBasicAuth("", API_TOKEN)
 
