@@ -1,4 +1,4 @@
-# Github_Jira Integration
+# Github-Jira Integration
 
 ## Intoduction
 Use GitHub and JIRA API to create a JIRA ticket reduce the manual work and using Automation to save time .
