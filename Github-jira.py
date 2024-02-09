@@ -11,7 +11,7 @@ app = Flask(__name__)
 @app.route('/createJira', methods=['POST'])
 def createJira():
 
-    url = "https://veeramallaabhishek.atlassian.net/rest/api/3/issue"
+    url = "https://yourdomainname.atlassian.net/rest/api/3/issue"
 
     API_TOKEN=""
 
@@ -40,12 +40,12 @@ def createJira():
              "version": 1
         },
         "project": {
-           "key": "AB"
+           "key": "GJ"
         },
         "issuetype": {
-            "id": "10006"
+            "id": "10007"
         },
-        "summary": "Main order flow broken",
+        "summary": "This isuue created by flask app",
     },
     "update": {}
     } )
